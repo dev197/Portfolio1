@@ -437,7 +437,7 @@ nav{
     position: absolute;
     font-size: 90px;
     color: #c7c0c0;
-    margin-right:10%;
+    right:10%;
     bottom: 0%;
     user-select: none;
     font-family: cursive;
