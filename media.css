@@ -1,0 +1,187 @@
+@media (max-width:400px) {
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .faded-text{
+        display: none;
+    }
+    .nav-items div{
+        display: none;
+    }
+    .name-logo img{
+        height: 50px
+    }
+    .name-text .red-letter{
+        font-size: 40px;
+    }
+    .wrapper{
+        overflow-x: hidden;
+        height: auto;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .front{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        
+    }
+    .left-section{
+        transform: scale(0.8);
+    }
+    .right-section{
+        transform: scale(0.7);
+    }
+        
+    }
+    @media (max-width:400px) {
+        .project{
+            margin-top: 160%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }  
+        .project-heading{
+            transform: scale(0.7);
+            margin-top: -80%;
+        }
+        .project-card{
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: left;
+        }
+       .project-skills img{
+        transform: scale(0.6);
+       }
+       .project-subheading{
+        transform: scale(0.5);
+        padding-top: 5px;
+       }
+       .project-description{
+        transform: scale(0.4);
+       }
+       .btn-project{
+        transform:scale(0.6) 0.;
+       }
+       .wave{
+        display: none;
+       }
+       #project2{
+        display: none;
+       }
+    }
+    @media (max-width:400px) {
+        .skills-section{
+            display:inline;
+            align-items: center;
+            justify-content: center;
+        }
+        .skills-left-section{
+        
+        }
+        .skills-heading{
+            transform: scale(0.7);
+            width: 400px;
+        }
+        .skills-description{
+            transform: scale(0.8);
+            width: 350px;
+        }
+        .Education-wave{
+            display: none;
+        }
+        .skills-right-section-container{
+            transform: scale(0.6);
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            mix-blend-mode: multiply;
+        }
+        .bubble-animation svg{
+            transform: scale(2.0);
+            position: absolute;
+            padding-right: 250px;
+            padding-top: 250px;
+        }
+    }
+    @media (max-width:400px) {
+        .Education-class{
+            display: inline;
+            align-items: center;
+    
+        }
+        .education-middle-section{
+            display: none;
+        }
+        .education-box{
+            transform: scale(0.7);
+            width: 350px;
+            height: 200px;
+        }
+        .skillmain-heading{
+            display: none;
+        }
+        .highschool-education{
+            margin:auto;
+        }
+        .internship{
+            margin: auto;
+        }
+        .universty-education{
+            margin: auto;
+        }
+        .education-box:hover{
+            transform: scale(0.8);
+        }
+    }
+    @media (max-width:400px) {
+        .contact-me-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20%;
+            gap: 20%;
+        }
+        .contact-heading{
+            color: #5757ed;
+            font-size: 5vh;
+        }
+        .contact-heading span{
+            font-size: 4vh;
+        }
+        .contact-subheading{
+            font-size: 3vh;
+            color: red;
+        }
+        .formfeild{
+            width: 100%;
+            margin: auto;
+            gap: 20%;
+            margin-top: 10%;
+        }
+        .contact-heading span{
+            font-size: 7vh;
+        }
+        .contact-button{
+            transform: scale(0.7);
+            margin-left: -40%;
+        }
+        .contact-button:hover{
+            transform: scale(0.7);
+        }
+    }
