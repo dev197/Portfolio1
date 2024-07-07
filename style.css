@@ -378,6 +378,9 @@ nav{
     fill: gray;
 }
 .skills-section{
+    margin-left:-10%;
+    width:100%;
+    height:100%;
     padding: 3% 10%;
     display: flex;
     align-items: center;
@@ -434,7 +437,7 @@ nav{
     position: absolute;
     font-size: 90px;
     color: #c7c0c0;
-    right: 5%;
+    margin-right:10%;
     bottom: 0%;
     user-select: none;
     font-family: cursive;
@@ -576,36 +579,7 @@ nav{
     }
     
 }
-@media (max-width:400px) {
-    .Education-class{
-        display: inline;
-        align-items: center;
 
-    }
-    .education-middle-section{
-        display: none;
-    }
-    .education-box{
-        transform: scale(0.7);
-        width: 350px;
-        height: 200px;
-    }
-    .skillmain-heading{
-        display: none;
-    }
-    .highschool-education{
-        margin:auto;
-    }
-    .internship{
-        margin: auto;
-    }
-    .universty-education{
-        margin: auto;
-    }
-    .education-box:hover{
-        transform: scale(0.8);
-    }
-}
 /* ------------------------------------------Contact-Me------------------------------------------------------- */
 .contact-me-section{
     height: 100%;
