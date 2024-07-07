@@ -156,6 +156,7 @@
             align-items: center;
             padding: 20%;
             gap: 20%;
+            margin-left:-20%;
         }
         .contact-heading{
             color: #5757ed;
